@@ -1,0 +1,17 @@
+# number of nodes
+NODES = 7
+
+# number of links
+LINKS = 11
+# every node is three(id,start Node, end Node)
+1 1 2 
+2 1 5 
+3 2 3 
+4 5 2 
+5 5 4 
+6 5 6 
+7 3 4 
+8 6 4 
+9 3 7 
+10 4 7 
+11 7 6 
