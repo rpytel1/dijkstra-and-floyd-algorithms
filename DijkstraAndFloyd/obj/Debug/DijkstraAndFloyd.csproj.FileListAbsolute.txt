@@ -1,0 +1,5 @@
+C:\Users\Rafal\Desktop\Programowanie\DijkstraAndFloyd\DijkstraAndFloyd\bin\Debug\DijkstraAndFloyd.exe.config
+C:\Users\Rafal\Desktop\Programowanie\DijkstraAndFloyd\DijkstraAndFloyd\bin\Debug\DijkstraAndFloyd.exe
+C:\Users\Rafal\Desktop\Programowanie\DijkstraAndFloyd\DijkstraAndFloyd\bin\Debug\DijkstraAndFloyd.pdb
+C:\Users\Rafal\Desktop\Programowanie\DijkstraAndFloyd\DijkstraAndFloyd\obj\Debug\DijkstraAndFloyd.exe
+C:\Users\Rafal\Desktop\Programowanie\DijkstraAndFloyd\DijkstraAndFloyd\obj\Debug\DijkstraAndFloyd.pdb
