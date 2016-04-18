@@ -11,7 +11,7 @@ namespace DijkstraAndFloyd
 {
     class Graph
     {
-        //tablica poLinkn
+        
         double[,] thicknessTable;
         Link[] links = new Link[1];
         int nodeNumber;

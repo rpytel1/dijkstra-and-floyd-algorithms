@@ -38,7 +38,7 @@ namespace DijkstraAndFloyd
             int parent = size / 2;
             while (parent > 0)
             {
-                if (elements[parent].getKey().CompareTo(elements[i].getKey()) < 0)
+                if (elements[parent].getKey().CompareTo(elements[i].getKey()) > 0)
                 {
                     Element<K, T> tmp = elements[i];
                     elements[i] = elements[parent];
@@ -71,17 +71,18 @@ namespace DijkstraAndFloyd
             elements[size] = null;
             size--;
             int i = 1;
-            int max = i;
+            int max = 1;
+            bool leftbigger = false;
 
             while (true)
             {
-                if (left(i) <= size && elements[left(i)].getKey().CompareTo(elements[i].getKey()) > 0)
+                if (left(i) <= size && elements[left(i)].getKey().CompareTo(elements[i].getKey()) < 0)
                 {
-                    max = left(i);
+                    max = left(i);             
                 }
 
-                if (right(i) <= size && elements[right(i)].getKey().CompareTo(elements[i].getKey()) > 0
-                   && elements[right(i)].getKey().CompareTo(elements[left(i)].getKey()) > 0)
+                if (right(i) <= size && elements[right(i)].getKey().CompareTo(elements[i].getKey()) < 0
+                   && elements[right(i)].getKey().CompareTo(elements[left(i)].getKey()) < 0)
                 {
                     max = right(i);
                 }
